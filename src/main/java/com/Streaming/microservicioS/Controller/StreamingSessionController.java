@@ -1,7 +1,8 @@
-package com.Streaming.microservicioS.Controlador;
+package com.Streaming.microservicioS.Controller;
 
-import com.Streaming.microservicioS.Modelo.StreamingSession;
-import com.Streaming.microservicioS.Servicio.StreamingSessionService;
+import com.Streaming.microservicioS.Model.StreamingSession;
+import com.Streaming.microservicioS.Service.StreamingSessionService;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

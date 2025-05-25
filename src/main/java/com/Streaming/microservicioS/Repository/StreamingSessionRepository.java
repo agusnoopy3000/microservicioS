@@ -1,9 +1,10 @@
-package com.Streaming.microservicioS.Repositorio;
+package com.Streaming.microservicioS.Repository;
 
 
-import com.Streaming.microservicioS.Modelo.StreamingSession;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.Streaming.microservicioS.Model.StreamingSession;
 
 import java.util.List;
 

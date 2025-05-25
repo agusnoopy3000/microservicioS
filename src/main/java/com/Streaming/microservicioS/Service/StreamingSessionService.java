@@ -1,14 +1,16 @@
-package com.Streaming.microservicioS.Servicio;
+package com.Streaming.microservicioS.Service;
 
-import com.Streaming.microservicioS.Modelo.StreamingSession;
-import com.Streaming.microservicioS.Repositorio.StreamingSessionRepository;
+import com.Streaming.microservicioS.Model.StreamingSession;
+import com.Streaming.microservicioS.Repository.StreamingSessionRepository;
+
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
-
+@Transactional
 @Service
 @RequiredArgsConstructor
 public class StreamingSessionService {

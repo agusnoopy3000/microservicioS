@@ -1,4 +1,4 @@
-package com.Streaming.microservicioS.Modelo;
+package com.Streaming.microservicioS.Model;
 import jakarta.persistence.*;
 import lombok.*;
 import java.time.LocalDateTime;
